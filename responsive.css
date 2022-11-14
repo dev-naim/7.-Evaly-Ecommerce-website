@@ -1,0 +1,46 @@
+@media (max-width: 992px) {
+    .nav.navbar-nav li{
+        margin: 10px 0 0 0;
+      }
+    .nav-icon {
+        margin-top: 10px;
+    }
+    .header-lft-icons {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section-title p {
+        max-width: 100%;
+    }
+}
+/* Maximum width 768px */
+@media (max-width: 768px) {
+    .feature-card-sm-mt {
+        margin-top: 25px;
+    }
+    .footer-social {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start ;
+    }
+}
+
+
+/* Maximum width 576px */
+@media (max-width: 576px) {
+    .search-bar {
+        flex-basis: auto;
+    }
+    .section-title h1 {
+        font-size: 43px;
+    }
+    .mt576-4 {
+        margin-top: 1.5rem;
+    }
+    .order1st576 {
+        order: 2;
+    }
+    .hero-section .carousel-item h1 {
+        font-size: 44px;
+    }
+}

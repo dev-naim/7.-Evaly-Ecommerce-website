@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+   <!-- font awesome link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <title>Evaly Ecommerce Website</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+<!-- start top nav -->
+<nav class="navbar navbar-expand-lg bg-darkis d-none d-lg-block top-navbar">
+    <div class="container text-light">
+        <div class="row top-nav-items">
+            <div class="col-lg-6">
+
+              <a href="mailto:info@company.com"><i class="fas fa-envelope"></i> &nbsp; info@company.com</a>&nbsp;&nbsp;
+              <a href="tel:+010-020-0340"><i class="fas fa-phone"></i>&nbsp; 010-020-0340</a>
+            </div>
+            <div class="col-lg-6 text-right">
+              <a class="mr-2" href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a class="mr-2" href="http://instagrm.com" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a class="mr-2" href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="http://linkedin.com" target="_blank"> <i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- End Top Nav -->
+<!-- Navbar Header Starts Here -->
+<header>
+ <nav class="navbar navbar-expand-lg header-nav ">
+   <div class="container d-flex justify-content-between align-items-center">
+    <a class="navbar-brand h1 text-green align-self-center" href="index.html">Evaly</a>
+
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="text-dark moblile-toggle-icon"><i class="fas fa-bars navbar-icon"></i></span>
+     </button>
+
+     <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <div class="menu flex-fill  d-lg-flex  justify-content-between">
+        <div class="flex-fill">
+          <ul class="nav navbar-nav d-flex justify-content-center mx-lg-auto ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+       <div class="d-flex header-lft-icons">
+        <form class="search-bar d-lg-none d-inline flex-sm-fill col-sm-auto mr-4" action="#">
+          <div class="input-group">
+            <input class="form-control" type="text" name="search" id="inputMobileSearch" placeholder="Search...">
+            <div class="input-group-text">
+              <a  type="submit"><i class="fas fa-search"></i></a>
+            </div>
+          </div>
+        </form>
+        <a class="nav-icon d-none d-lg-inline mr-3" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="fa fa-fw fa-search text-dark mr-2"></i>
+      </a>
+      <a href="#" class="nav-icon  mr-3"><i class="fas fa-cart-arrow-down mr-1 text-dark"></i>
+        <span class="badge rounded-pill icon-bg text-dark spanFst">7</span>
+      </a>
+      <a href="#" class="nav-icon ml-3"><i class="fas fa-user text-dark"></i>
+        <span class="badge  rounded-pill icon-bg text-dark ml-2 spanScnd">+99</span>
+      </a>
+       </div>
+     </div>
+   </div>
+ </nav>
+<!-- Modal  -->
+  <div class="modal fade bg-white" id="exampleModal" tabindex="-1" role="dialog"aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="w-100 pt-1 mb-5 text-right">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <form action="#" method="get" class="modal-content modal-body border-0 p-0">
+      <div class="input-group mb-2">
+        <input type="text" class="form-control form-control-lg" name="search" id="inputModalSearch" placeholder="Search...">
+        <button type="submit" class="input-group-text bg-green text-light">
+          <i class="fas fa-search    "></i>
+        </button>
+      </div>
+    </form>
+
+    </div>
+  </div>
+
+</header>
+<!-- Navbar Header Ends Here -->
+
+<main>
+
+<!--========== Hero Section Starts Here ===========-->
+<section class="hero-section pb-4">
+  <div id="myCarousel" class="carousel slide portfolio_Carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+       <li data-target="#myCarousel" data-slide-to="0" class="active "></li>
+       <li data-target="#myCarousel" data-slide-to="1"></li>
+       <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active ">
+            <div class="container">
+              <div class="row p-5">
+                <div class="col-lg-6 mx-auto order-lg-last">
+                  <img class="img-fluid" src="img/banner/banner_img_01.jpg" alt="">
+                </div>
+                <div class="col-lg-6 mb-0 align-self-center ">
+                  <h1 class="h1 text-green"><b>Evaly</b> eCommerce</h1>
+                  <h2 class="h2">Tiny and Perfect eCommerce Template</h2>
+                  <p>
+                    Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). This template is 100% free provided by <a class="text-green" href="#">TemplateMo</a> website. Image credits go to <a class="text-green" href="#">Freepik Stories</a> , <a href="#" class="text-green">Unsplash</a> and <a href="#" class="text-green">Icons 8</a>.
+                  </p>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+              <div class="row p-5">
+                <div class="col-lg-6 mx-auto order-lg-last">
+                  <img class="img-fluid" src="img/banner/banner_img_02.jpg" alt="">
+                </div>
+                <div class="col-lg-6 mb-0 align-self-center ">
+                  <h1 class="h1">Proident occaecat</h1>
+                  <h2 class="h2">Aliquip ex ea commodo consequat</h2>
+                  <p>
+                    You are permitted to use this Zay CSS template for your commercial websites. You are not permitted to re-distribute the template ZIP file in any kind of template collection websites.
+                  </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+               <div class="row p-5">
+                <div class="col-lg-6 mx-auto order-lg-last">
+                  <img class="img-fluid" src="img/banner/banner_img_03.jpg" alt="">
+                </div>
+                <div class="col-lg-6 mb-0 align-self-center ">
+                  <h1 class="h1">Repr in voluptate</h1>
+                  <h2 class="h2">Ullamco laboris nisi ut</h2>
+                  <p>
+                    We bring you 100% free CSS templates for your websites. If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
+                  </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- Left And Right Arrow -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+       <i class="fa fa-chevron-left npIcon" aria-hidden="true"></i>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+       <i class="fa fa-chevron-right npIcon" aria-hidden="true"></i>
+    </a>
+ </div>
+</section>
+<!--=========== Hero Section Ends Here ============-->
+<!-- ========= Category Section Starts Here ======== -->
+<section class="category-section py-4">
+  <div class="container">
+    <div class="section-title text-center">
+      <h1 class="h1">Categories of The Month</h1>
+      <p class=" m-auto">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="row my-4">
+      <div class="col-lg-4 col-md-4 p-5">
+        <div class="category-item ">
+          <a href="#"><img class="img-fluid rounded-circle border" src="img/category/category_img_01.jpg" alt="category image"></a>
+          <h5 class="h5 text-center mt-3">Watches</h5>
+          <p class="text-center"><button class="btn btn-success border-0">Go Shop</button></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 p-5">
+        <div class="category-item ">
+          <a href="#"><img class="img-fluid rounded-circle border" src="img/category/category_img_02.jpg" alt="category image"></a>
+          <h5 class="h5 text-center mt-3">Shoes</h5>
+          <p class="text-center"><button class="btn btn-success border-0">Go Shop</button></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 p-5">
+        <div class="category-item ">
+          <a href="#"><img class="img-fluid rounded-circle border" src="img/category/category_img_03.jpg" alt="category image"></a>
+          <h5 class="h5 text-center mt-3">Accessories</h5>
+          <p class="text-center"><button class="btn btn-success border-0">Go Shop</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========= Category Section Ends Here ======== -->
+
+<!-- ========= Feature Section Start Here ======== -->
+<section class="feature-section py-5">
+  <div class="container">
+    <div class="section-title text-center">
+      <h1 class="h1">Featured Product</h1>
+      <p class="mx-auto">Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <a class="stretched-link" href="shop_details.html"><img src="img/feature/feature_prod_01.jpg" class="card-img-top" alt="Gym Weight"></a>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <ul class="d-flex align-items-center">
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #bcbcbc;"></i></li>
+                <li><i class="fas fa-star" style="color: #bcbcbc;"></i></li>
+              </ul>
+              <p  style="color: #bcbcbc;">$240.00</p>
+            </div>
+            <a class="h2 text-dark" href="#">Gym Weight</a>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.</p>
+            <p class="text-muted">Reviews (24)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6  feature-card-sm-mt">
+        <div class="card">
+          <a href="shop_details.html" class="stretched-link"> <img src="img/feature/feature_prod_02.jpg" class="card-img-top" alt="Cloud Nike Shoes"></a>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <ul class="d-flex align-items-center">
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #bcbcbc;"></i></li>
+                <li><i class="fas fa-star" style="color: #bcbcbc;"></i></li>
+              </ul>
+              <p  style="color: #bcbcbc;">$480.00</p>
+            </div>
+            <a class="h2 text-dark" href="#">Cloud Nike Shoes</a>
+            <p class="card-text">Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.</p>
+            <p class="text-muted">Reviews (48)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mt-md-4 mt-lg-0  feature-card-sm-mt">
+        <div class="card">
+          <a href="shop_details.html" class="stretched-link"><img src="img/feature/feature_prod_03.jpg" class="card-img-top" alt="Summer Addides Shoes"></a>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <ul class="d-flex align-items-center">
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+                <li><i class="fas fa-star" style="color: #EDE861;"></i></li>
+              </ul>
+              <p  style="color: #bcbcbc;">$360.00</p>
+            </div>
+            <a class="h2 text-dark" href="#">Summer Addides Shoes</a>
+            <p class="card-text">Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.</p>
+            <p class="text-muted">Reviews (74)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========= Feature Section Start Here ======== -->
+</main>
+
+<!-- ======= Footer Section Start Here ========= -->
+<footer class="footer-section">
+  <div class="footer-bg py-5">
+    <div class="container">
+      <div class="footer-top">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="footer-heading pb-3">
+              <a class="h2 text-green " href="index.html">Evaly Shop</a>
+            </div>
+            <ul class="mt-4">
+              <li style="color: #cfd6e1 !important;"><i class="fas fa-map-marker-alt mr-3"></i >123 Consectetur at ligula 10660</li>
+              <li class="text-white mt-3"><i class="fas fa-phone mr-3"></i><a class="ftr-link" href="tel:+010-020-0340">010-020-0340</a></li>
+              <li class="text-white mt-3"><i class="fas fa-envelope mr-3"></i><a class="ftr-link" href="mailto:info@company.com">info@company.com</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="footer-heading">
+              <h2 class="h2">Products</h2>
+            </div>
+            <ul class="mt-4">
+              <li><a class="ftr-link" href="#">Luxury</a></li>
+              <li class="mt-2"><a class="ftr-link" href="#">Sport Wear</a></li>
+              <li class="mt-2"><a class="ftr-link" href="#">Men's Shoes</a></li>
+              <li class="mt-2"><a class="ftr-link" href="#">Women's Shoes</a></li>
+              <li class="mt-2"><a class="ftr-link" href="#">Popular Dress</a></li>
+              <li class="mt-2"><a class="ftr-link" href="#">Gym Accessories</a></li>
+              <li class="mt-2"><a class="ftr-link" href="#">Sport Shoes</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="footer-heading">
+              <h2 class="h2">Further Info</h2>
+            </div>
+            <ul class="mt-4">
+              <li><a class="ftr-link" href="index.html">Home</a></li>
+              <li class="mt-2"><a class="ftr-link" href="about.html">About Us</a></li>
+              <li class="mt-2"><a class="ftr-link" href="contact.html">Shop Locations</a></li>
+              <li class="mt-2"><a class="ftr-link" href="shop.html">Women's Shoes</a></li>
+              <li class="mt-2"><a class="ftr-link" href="#">FAQs</a></li>
+              <li class="mt-2"><a class="ftr-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-btm">
+        <div class="footer-social d-flex ">
+          <ul class="d-flex mt-5">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+          <form action="#">
+            <label class="sr-only" for="subscribeEmail">Email address</label>
+            <label for=""></label>
+            <div class="input-group">
+              <input class="form-control" type="email" name="email" id="email" placeholder="Email Address">
+              <span class="input-group-text btn-success text-light mt-0" >Subscribe</span>
+            </div>
+          </form>
+        </div>
+      </div>
+     </div>
+  </div>
+   <!-- Copyright & Development -->
+   <div class="copyright-develop-section ">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-lg-12">
+          <p style="color: #cfd6e1 !important;">
+            Copyright &copy; 2022 Evaly | Developed by <a class="ftr-link fst-italic" href="www.github.com/dev-naim">Developer Naim</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ======= Footer Section Ends Here ========= -->
+
+    <!-- Optional JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/templatemo.js"></script>
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

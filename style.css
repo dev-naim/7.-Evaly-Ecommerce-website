@@ -1,0 +1,300 @@
+/* ======= Global CSS Starts Here ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+  background: #fff;
+}
+body, ul, li, p, a, label, input, div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px ;
+    font-weight: 300 ;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    color: #212529;
+  }
+  .h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px ;
+    font-weight: 200 ;
+  }
+  .h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px ;
+    font-weight: 300;
+  }
+  .h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px ;
+  }
+  .bg-green{
+    background: #59ab6e;
+  }
+  .btn-success {
+    background: #59ab6e;
+    font-size: 18px;
+    margin-top: 5px;
+}
+  .text-green{
+    color: #59ab6e !important;
+  }
+  .icon-bg{
+    background: #E9EEF5;
+  }
+  .section-title p{
+    max-width: 50%;
+  }
+  /* ======= Global CSS Ends Here ========== */
+  .top-navbar {
+    padding: 6px;
+
+  }
+.top-nav-items a{
+  display: inline-block;
+  font-size: 13px;
+  color: #cfd6e1;
+  text-decoration: none;
+}
+.bg-darkis{
+  background: #212934 ;
+}
+/* ====== header section start */
+
+.nav.navbar-nav li{
+  margin: 0 48px;
+}
+
+.moblile-toggle-icon i{
+  display: inline-block;
+  font-size: 30px;
+
+  transition: all 1s;
+}
+header .nav-item .nav-link{
+  color: #212934;
+  transition: all 0.2s;
+}
+header .nav-item:hover .nav-link,
+header .nav-item:focus .nav-link,
+header .nav-item:active .nav-link,
+header .nav-item:visited .nav-link {
+  color: #59ab6e;
+}
+.header-lft-icons .nav-icon {
+  position: relative;
+}
+.header-lft-icons .spanFst{
+  padding: 5px 12px;
+}
+.header-lft-icons .nav-icon .spanFst {
+  position: absolute;
+  left: 70%;
+  top: -31%;
+}
+.header-lft-icons .nav-icon .spanScnd {
+  position: absolute;
+  left: 15%;
+  top: -25%;
+}
+/* ======== Start Banner Hero Section */
+.hero-section {
+  background: #EFEFEF;
+  margin-bottom:40px;
+}
+.npIcon {
+  font-size: 3.3rem;
+
+  font-weight: 900;
+  display: inline-block;
+  color: #59ab6e;
+
+}
+.carousel-indicators li {
+  background-color: #59ab6e;
+
+}
+.carousel-control-prev {
+  left: -21px;
+}
+/* ===== Feature Section start here ====== */
+.feature-section{
+background: #E9EEF5;
+}
+/* ===== Feature Section Ends here ====== */
+/* footer section */
+.footer-section .footer-heading,
+.footer-section > ul > li {
+  color: #cfd6e1;
+}
+.footer-section {
+  background: #212934;
+  color: #cfd6e1;
+}
+.footer-top {
+
+  border-bottom: 1px solid #2d343f;
+}
+.footer-heading {
+  border-bottom: 1px solid #2d343f;
+  padding-bottom: 10px;
+}
+.footer-section .ftr-link{
+  color: #cfd6e1;
+
+}
+.footer-section .ftr-link:hover{
+  color: #59ab6e;
+}
+.footer-social {
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-social ul li a {
+  display: inline-block;
+  color: #cfd6e1;
+  margin-right: 20px;
+  border: 1px solid #2d343f;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+.footer-social ul li a:hover{
+  background: #cfd6e1;
+  color: #212934;
+}
+.footer-bg {
+  background: #212934;
+}
+.footer-btm .form-control{
+  border-color: #2d343f;
+  color: #cfd6e1 !important;
+  background: #212934;
+}
+.copyright-develop-section {
+  background: #1D242D !important;
+
+}
+
+/* =================== Ends Footer Section ================ */
+
+/* ========== Start About page section ============== */
+.about-us-section {
+  background: #59AB6E;
+}
+.paddinY {
+  padding: 70px 0;
+}
+.marginT {
+  margin-top: 100px;
+}
+.service-item{
+  transition: all 0.3s;
+}
+.service-item i{
+  color: #59ab6e;
+}
+.service-item:hover i{
+  color: #fff;
+}
+.service-item:hover {
+  background: #59AB6E;
+  color: #fff;
+}
+.our-brand-section {
+  padding: 80px 0;
+  background: #E9EEF5;
+}
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.brand-img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+/* ========== End About page section ============== */
+
+/* ========== Start Contact Page Section =========== */
+.contact-heading-section {
+  background: #E9EEF5 ;
+  padding: 50px 0;
+
+
+}
+.contact-form-section .btn-success {
+  background: #59ab6e;
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+
+/* ========== End Contact Page Section =========== */
+
+/* ========== Start Shop page Secion ============*/
+
+.shop-prodcut-section .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #212529;
+  background-color: transparent;
+  transition: 0.2s;
+}
+.shop-prodcut-section .nav .nav-link:hover,
+.shop-prodcut-section .nav .nav-link:focus,
+.shop-prodcut-section .nav .nav-link:active,
+.shop-prodcut-section .nav .nav-link.active,
+.shop-prodcut-section .nav .nav-link:visited {
+  color: #59ab6e;
+}
+
+ .product-image-content{
+  position: relative;
+}
+ .product-image-content .product-img{
+  position: relative;
+}
+.product-image-content .product-img::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0,0.3);
+  transition: 0.2s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+ .bay-product-details {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  opacity: 0;
+  visibility: hidden;
+
+}
+ .product-picture-item .card:hover .product-image-content .product-img::after,
+ .product-picture-item .card:hover .product-image-content .bay-product-details{
+  opacity: 1;
+  visibility: visible;
+}
+/* ========== End Shop page Secion ==============*/
+
+/* =========== Start Product Details page =========== */
+.shop-details-content-section {
+  background: #E9EEF5;
+}
+.shop-details-content-section .carousel-control-next {
+  left: 90%;
+}
+/* =========== End Product Details page =========== */
